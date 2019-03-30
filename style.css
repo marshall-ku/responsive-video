@@ -26,6 +26,10 @@ body {
   padding-bottom: 70%
 }
 
+.resvid.old {
+  padding-bottom:75%
+}
+
 @media screen and (max-width:1000px) {
   .resvid.alt {
     width: 50%;
