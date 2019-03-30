@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 5%
+}
+
+.resvid {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin: auto
+}
+
+.resvid iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+
+.resvid.alt {
+  width: 35%;
+  padding-bottom: 62.22%
+}
+
+.resvid.square {
+  width: 70%;
+  padding-bottom: 70%
+}
+
+@media screen and (max-width:1000px) {
+  .resvid.alt {
+    width: 50%;
+    padding-bottom: 88.89%
+  }
+}
+
+@media screen and (max-width:600px) {
+  .resvid.alt {
+    width: 100%;
+    padding-bottom: 177.78%
+  }
+
+  .resvid.square {
+    width: 100%;
+    padding-bottom: 100%
+  }
+}
